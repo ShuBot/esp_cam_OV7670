@@ -1,0 +1,21 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/shubham/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/home/shubham/Projects/esp_cam_OV7670/firmware/esp32_cam_OV7670/build/bootloader",
+    "config_file":        "/home/shubham/Projects/esp_cam_OV7670/firmware/esp32_cam_OV7670/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.4-dirty",
+    "target":             "esp32",
+    "rev":                "0",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/shubham/esp/esp-idf/components/efuse/Kconfig;/home/shubham/esp/esp-idf/components/esp32/Kconfig;/home/shubham/esp/esp-idf/components/esp_common/Kconfig;/home/shubham/esp/esp-idf/components/esp_hw_support/Kconfig;/home/shubham/esp/esp-idf/components/esp_system/Kconfig;/home/shubham/esp/esp-idf/components/freertos/Kconfig;/home/shubham/esp/esp-idf/components/hal/Kconfig;/home/shubham/esp/esp-idf/components/log/Kconfig;/home/shubham/esp/esp-idf/components/newlib/Kconfig;/home/shubham/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/shubham/esp/esp-idf/components/bootloader/Kconfig.projbuild;/home/shubham/esp/esp-idf/components/esp_rom/Kconfig.projbuild;/home/shubham/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/home/shubham/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/home/shubham/esp/esp-idf/components/bootloader", "/home/shubham/esp/esp-idf/components/bootloader_support", "/home/shubham/esp/esp-idf/components/efuse", "/home/shubham/esp/esp-idf/components/esp32", "/home/shubham/esp/esp-idf/components/esp_common", "/home/shubham/esp/esp-idf/components/esp_hw_support", "/home/shubham/esp/esp-idf/components/esp_rom", "/home/shubham/esp/esp-idf/components/esp_system", "/home/shubham/esp/esp-idf/components/esptool_py", "/home/shubham/esp/esp-idf/components/freertos", "/home/shubham/esp/esp-idf/components/hal", "/home/shubham/esp/esp-idf/components/log", "/home/shubham/esp/esp-idf/components/bootloader/subproject/main", "/home/shubham/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/shubham/esp/esp-idf/components/newlib", "/home/shubham/esp/esp-idf/components/partition_table", "/home/shubham/esp/esp-idf/components/soc", "/home/shubham/esp/esp-idf/components/spi_flash", "/home/shubham/esp/esp-idf/components/xtensa", "" ]
+}
